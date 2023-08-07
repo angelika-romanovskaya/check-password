@@ -64,11 +64,6 @@ body{
     transform: translateY(20px);
 }
 
-.password-input:focus ~ .password-checklist{
-    opacity: 1;
-    transform: translateY(0);
-}
-
 .checklist-title{
     font-size: 20px;
     color: white;
