@@ -3,11 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Check Password</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+    <div class="wrap">
+        <h1 class="title">Check password</h1>
+        <div class="password-box">
+            <input type="password" placeholder="password" class="password">
+            <i class="fa-solid fa-eye show-password"></i>
+        </div>
+        <div class="password-checklist">
+            <h3 class="checklist-title">Password should be</h3>
+            <ul class="checklist">
+                <li class="list-item">At least 8 character long</li>
+                <li class="list-item">At least 1 number</li>
+                <li class="list-item">At least 1 lowercase letter</li>
+                <li class="list-item">At least 1 uppercase letter</li>
+                <li class="list-item">At least 1 special character</li>
+            </ul>
+        </div>
+    </div>
     <script src="./js/script.js"></script>
 </body>
 </html>
